@@ -529,7 +529,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="py-8 px-4 border-t border-white/10 backdrop-blur-sm">
         <div className="container max-w-4xl mx-auto text-center">
-          <p className="text-muted-foreground">© {new Date().getFullYear()} Pritesh Kumar Sahoo. All rights reserved.</p>
+          <p className="text-muted-foreground">© {new Date().getFullYear()} Chinmaya Behura. All rights reserved.</p>
         </div>
       </footer>
       {/* Project Modal */}
