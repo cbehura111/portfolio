@@ -20,7 +20,7 @@ import { SplineScene } from "@/components/hero/splite";
 import { Card } from "@/components/hero/card"
 import { Spotlight } from "@/components/hero/spotlight"
 import TechStack from "@/components/tech-stack";
-import profilePic from "@/components/assests/pritesh_image.jpeg"
+import profilePic from "@/components/assests/chinmaya.jpeg"
 
 export default function Home() {
   const controls = useAnimation()
@@ -217,7 +217,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background custom-scrollbar">
       {/* Add the splash screen with your name */}
-      <SplashScreen name="Pritesh" />
+      <SplashScreen name="Chinmaya" />
 
       <ThreeBackground />
       {/* <CustomCursor /> */}
@@ -439,7 +439,7 @@ export default function Home() {
 
             <div className="flex flex-wrap justify-center gap-6 mt-8">
               <motion.a
-                href="https://www.facebook.com/pritesh.sahoo.90"
+                href="https://www.facebook.com/cbehura"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-4 rounded-full bg-[#1877F2]/10 hover:bg-[#1877F2]/20 transition-colors border border-[#1877F2]/20 group"
@@ -451,7 +451,7 @@ export default function Home() {
               </motion.a>
 
               <motion.a
-                href="https://x.com/Pritesh19381772"
+                href="https://x.com/Siempre_chinmay"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-4 rounded-full bg-[#1DA1F2]/10 hover:bg-[#1DA1F2]/20 transition-colors border border-[#1DA1F2]/20 group"
@@ -463,7 +463,7 @@ export default function Home() {
               </motion.a>
 
               <motion.a
-                href="https://www.linkedin.com/in/pritesh-kumar-sahoo-590a66230/"
+                href="https://www.linkedin.com/in/cbehura111/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-4 rounded-full bg-[#0A66C2]/10 hover:bg-[#0A66C2]/20 transition-colors border border-[#0A66C2]/20 group"
@@ -474,7 +474,7 @@ export default function Home() {
                 <span className="sr-only">LinkedIn</span>
               </motion.a>
 
-              <motion.a
+              {/* <motion.a
                 href="https://www.instagram.com/__pritesh_/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -484,10 +484,10 @@ export default function Home() {
               >
                 <Instagram className="w-8 h-8 text-[#E4405F] group-hover:animate-pulse" />
                 <span className="sr-only">Instagram</span>
-              </motion.a>
+              </motion.a> */}
 
               <motion.a
-                href="mailto:priteshkumarsahoo16@gmail.com"
+                href="mailto:be.chinmaya@gmail.com"
                 className="p-4 rounded-full bg-primary/10 hover:bg-primary/20 transition-colors border border-primary/20 group"
                 whileHover={{ y: -5, scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
@@ -497,7 +497,7 @@ export default function Home() {
               </motion.a>
 
               <motion.a
-                href="https://github.com/pritesh123-dev"
+                href="https://github.com/cbehura111"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-4 rounded-full bg-[#333]/10 hover:bg-[#333]/20 transition-colors border border-[#333]/20 group dark:bg-white/10 dark:hover:bg-white/20 dark:border-white/20"
@@ -517,8 +517,8 @@ export default function Home() {
             >
               <p>
                 Or send me an email directly at{" "}
-                <a href="mailto:priteshkumarsahoo16@gmail.com" className="text-primary hover:underline">
-                priteshkumarsahoo16@gmail.com
+                <a href="mailto:be.chinmaya@gmail.com" className="text-primary hover:underline">
+                be.chinmaya@gmail.com
                 </a>
               </p>
             </motion.div>
